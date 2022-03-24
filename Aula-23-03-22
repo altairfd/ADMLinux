@@ -1,0 +1,40 @@
+Estrutura de diretórios no Linux
+
+Windows
+Discos associados a letras. EX: C: , D:
+
+--------------------
+No linux: caminhos
+Não existem unidades
+Diferencia maiúsculos de minusculos
+Diretorios separados por: /
+
+Exemplo:
+/home/altair/Documentos/prova.odt
+----------------------
+
+´Colocar o "/" é como puxar da raiz
+sem "/" vai procurar uma pasta com este nome após a bara
+cd Documentos
+
+ls *.cpp - Procura por todos os arquivos terminados em cpp 
+
+ls teste?.txt - Procura por todos os arquivos que iniciam 
+com teste, tenham um caracter no meio e terminem 
+com .txt
+-----------------
+
+
+
+
+Parabéns, seu processo de inscrição já foi finalizado. Você já pode salvar as informações para ingressar na sala Zoom no dia do evento:
+
+Link da Sala: https://kasolution.zoom.us/webinar/register/WN_h054oykKRBScmCDurLNL6g
+ID (caso peça): 935 0948 8671
+Abertura da sala Zoom: Dia 26/03 às 08:30.
+
+Caso não consiga salvar essas informações agora, não se preocupe. Enviaremos todas as informações para o e-mail cadastrado em até 36 horas.
+
+Em caso de dúvidas, entre em contato com eventoska@kasolution.com.br.
+
+Tenha um ótimo curso!
