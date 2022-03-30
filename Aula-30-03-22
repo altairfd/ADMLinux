@@ -1,0 +1,50 @@
+ls - mostra o conteúdo da pasta que você esta
+cd /Nome da pasta - faz com que você entra na pasta 
+pwd mostra em qual pasta eu estou 
+
+ Adicionando usuários
+sudo adduser nomeUsuário - cria um novo usuário / sem <<>> ap
+
+Mudança de senha:
+• passwd (Sua senha) 
+• sudo passwd <<nome do usuário>>
+
+ Removendo um usuário 
+• sudo userdel nomeUsuário
+
+Mostrar a senhas do usuário
+sudo nano /etc/passwd
+
+Criando um grupo 
+• sudo groupadd <<nome do grupo>> 
+‣ Removendo um grupo 
+• sudo groupdel <<nome do grupo>> 
+‣ Listando os grupos de um usuário 
+• groups <<nome do usuário>> 
+‣ Banco de dados 
+• /etc/group
+
+‣ Estrutura básica
+
+chmod g+rw arquivo.txt
+‣ Estrutura básica 
+‣ g: o que será alterado (usuário, grupo, outros, all - todos) 
+‣ +: A permissão será concedida (+) ou removida (-) 
+‣ rw: Quais as opções serão alteradas (r, w, x) 
+‣ arquivo.txt - Nome do arquivo
+ex chmod g+rw adiocio g-rw remove
+
+chmod g+rw arquivo.txt adiciona leitura e escrita no arcrivo
+chmod g-w arquivo.txt remove a leitura do arquivo 
+chmod o-rw arquivo.txt remove a leitura e a escrita do arquivo
+chmod ug+x arquivo.txt adiciona um executavel
+chmod a+r arquivo.tx adicionona a leitura
+
+‣ Estrutura básica
+13
+chmod -r g+rw diretorio
+‣ Estrutura básica 
+‣ g: o que será alterado (usuário, grupo, outros, all - todos) 
+‣ +: A permissão será concedida (+) ou removida (-) 
+‣ rw: Quais as opções serão alteradas (r, w, x) 
+‣ arquivo.txt - Nome do arquivo
