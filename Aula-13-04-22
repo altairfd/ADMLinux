@@ -1,0 +1,14 @@
+#!/bin/bash no inicio do editor de texto nano nome do arquivo.txt
+
+#
+apt instal o noem dos comandos
+adiciona e salva em sh
+
+chmod a*x para dar a permissão de executar
+
+
+para executar: sudo /nomedoarquivo 
+
+echo = systemout
+
+apos isto executa o arquivo e roda o script
